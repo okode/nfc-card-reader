@@ -12,3 +12,7 @@
 hs_err_pid*
 
 .gradle
+.idea
+*.iml
+build
+local.properties
