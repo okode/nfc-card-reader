@@ -23,6 +23,7 @@ public class HostApduServiceImpl extends HostApduService {
             case CUSTOM:
             default:
                 Utils.log("-- Custom command received");
+                result = RESPONSE_9000;
                 break;
         }
 
